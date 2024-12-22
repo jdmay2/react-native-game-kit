@@ -1,0 +1,43 @@
+{
+  "name": "react-native-game-kit",
+  "version": "1.0.0",
+  "description": "A React Native library for iOS GameKit (Game Center) & Android Google Play Games Services (GPGS) integration.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "game-services",
+    "game-center",
+    "google-play-games",
+    "multiplayer",
+    "cross-platform",
+    "leaderboards",
+    "achievements"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmay2/react-native-game-kit.git"
+  },
+  "author": "Joseph May",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdmay2/react-native-game-kit/issues"
+  },
+  "homepage": "https://github.com/jdmay2/react-native-game-kit#readme",
+  "engines": {
+    "node": ">=12"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-native": ">=0.64",
+    "expo": ">=46"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
